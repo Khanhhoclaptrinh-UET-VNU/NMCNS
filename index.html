@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital Portfolio | Lê Ngọc Khánh</title>
+    <meta
+      name="description"
+      content="Digital Portfolio giới thiệu hành trình học Công nghệ số và Trí tuệ nhân tạo của Lê Ngọc Khánh."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Về trang chủ">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span>Digital Portfolio</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Mở menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Điều hướng chính">
+        <a href="#home">Trang chủ</a>
+        <a href="#about-portfolio">Về Portfolio</a>
+        <a href="#about-me">Về mình</a>
+        <div class="nav-menu">
+          <button class="nav-menu-button" type="button" aria-expanded="false">
+            Digital Portfolio
+            <span aria-hidden="true">⌄</span>
+          </button>
+          <div class="nav-menu-list">
+            <a href="#portfolio">Tổng quan</a>
+            <a href="#chapter-1">Chương 1</a>
+            <a href="#chapter-2">Chương 2</a>
+            <a href="#chapter-3">Chương 3</a>
+            <a href="#chapter-4">Chương 4</a>
+            <a href="#chapter-5">Chương 5</a>
+            <a href="#chapter-6">Chương 6</a>
+          </div>
+        </div>
+        <a href="#summary">Tổng kết</a>
+        <button class="icon-button" type="button" data-search-open aria-label="Tìm kiếm">
+          <span aria-hidden="true"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <img class="hero-image" src="assets/hero-student-ai.png" alt="Minh họa học sinh học công nghệ và AI">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Nhập môn Công nghệ số và ứng dụng AI</p>
+          <h1>Portfolio của Lê Ngọc Khánh</h1>
+          <p>
+            Một bản ghi lại hành trình học tập, thực hành và tự đánh giá qua 6 chủ đề:
+            thiết bị số, dữ liệu, trí tuệ nhân tạo, cộng tác, sáng tạo nội dung và liêm chính học thuật.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#portfolio">Xem dự án</a>
+            <a class="button secondary" href="#contact">Kết nối</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="intro" class="section intro-feature-section">
+        <div class="section-heading centered-heading">
+          <p class="eyebrow">Giới thiệu</p>
+          <h2>Một portfolio để nhìn lại quá trình học và trưởng thành trong môi trường số</h2>
+        </div>
+
+        <div class="intro-feature-grid">
+          <details id="about-portfolio" class="intro-feature-card" open>
+            <summary>
+              <span>
+                <small>Digital Portfolio</small>
+                Về Portfolio
+              </span>
+              <span class="feature-chevron" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="intro-feature-content">
+              <p>
+                Thông qua portfolio này, mình muốn hệ thống hóa lại kiến thức đã học trong môn
+                Nhập môn Công nghệ số và AI, đồng thời lưu giữ các sản phẩm theo từng chương
+                như một dấu mốc học tập rõ ràng.
+              </p>
+              <ul class="feature-points">
+                <li>Lưu trữ và giới thiệu 6 bài làm theo từng chủ đề.</li>
+                <li>Thể hiện khả năng tổ chức thông tin, trình bày và liên kết tài liệu.</li>
+                <li>Tạo dấu ấn số cá nhân để chuẩn bị cho các cơ hội học tập và nghề nghiệp.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details id="about-me" class="intro-feature-card" open>
+            <summary>
+              <span>
+                <small>Personal Profile</small>
+                Về mình
+              </span>
+              <span class="feature-chevron" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="intro-feature-content">
+              <div class="profile-intro">
+                <figure class="profile-photo-card">
+                  <img src="assets/profile-avatar.png" alt="Ảnh đại diện của Lê Ngọc Khánh">
+                  <figcaption>Lê Ngọc Khánh · 2026</figcaption>
+                </figure>
+                <p>
+                  Xin chào, mình là Lê Ngọc Khánh-sinh viên K70 ngành Khoa Học Máy Tính-Trường Đại Học Công Nghệ-Đại Học Quốc Gia Hà Nội. Mình quan tâm đến Khoa học dữ liệu,
+                  Trí tuệ nhân tạo và cách công nghệ có thể hỗ trợ học tập, sáng tạo nội dung
+                  cũng như giải quyết vấn đề trong đời sống.
+                </p>
+              </div>
+              <ul class="feature-points">
+                <li>Yêu thích tư duy logic, toán học và phân tích dữ liệu.</li>
+                <li>Đang rèn luyện cách dùng AI có kiểm chứng và có trách nhiệm.</li>
+                <li>Mong muốn biến kiến thức đã học thành sản phẩm số có ích.</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section portfolio-intro">
+        <div class="section-heading">
+          <p class="eyebrow">Digital Portfolio</p>
+          <h2>6 chương nội dung</h2>
+        </div>
+        <p class="intro-copy">
+          Mỗi chương giống như một mốc nhỏ trong hành trình chuyển từ người dùng công nghệ
+          sang người biết quan sát, phân tích và sử dụng công nghệ có trách nhiệm.
+        </p>
+
+        <div class="chapter-grid" aria-label="Danh sách chương">
+          <article id="chapter-1" class="chapter-card">
+            <div class="chapter-media media-devices">
+              <span>01</span>
+            </div>
+            <div class="chapter-body">
+              <p class="chapter-kicker">Chương 1</p>
+              <h3>Máy tính và thiết bị ngoại vi</h3>
+              <p>Nhận diện thành phần máy tính, thiết bị nhập xuất và cách chọn công cụ phù hợp cho học tập.</p>
+              <a href="assets/pdfs/chapter-1.pdf" target="_blank" rel="noopener">Xem PDF</a>
+            </div>
+          </article>
+
+          <article id="chapter-2" class="chapter-card">
+            <div class="chapter-media media-data">
+              <span>02</span>
+            </div>
+            <div class="chapter-body">
+              <p class="chapter-kicker">Chương 2</p>
+              <h3>Khai thác dữ liệu và thông tin</h3>
+              <p>Biết tìm, lọc, đánh giá nguồn và chuyển dữ liệu thành thông tin hữu ích để ra quyết định.</p>
+              <a href="assets/pdfs/chapter-2.pdf" target="_blank" rel="noopener">Xem PDF</a>
+            </div>
+          </article>
+
+          <article id="chapter-3" class="chapter-card">
+            <div class="chapter-media media-ai">
+              <span>03</span>
+            </div>
+            <div class="chapter-body">
+              <p class="chapter-kicker">Chương 3</p>
+              <h3>Tổng quan về trí tuệ nhân tạo</h3>
+              <p>Hiểu AI là gì, cách mô hình học từ dữ liệu và những giới hạn cần nhớ khi sử dụng công cụ AI.</p>
+              <a href="assets/pdfs/chapter-3.pdf" target="_blank" rel="noopener">Xem PDF</a>
+            </div>
+          </article>
+
+          <article id="chapter-4" class="chapter-card">
+            <div class="chapter-media media-team">
+              <span>04</span>
+            </div>
+            <div class="chapter-body">
+              <p class="chapter-kicker">Chương 4</p>
+              <h3>Giao tiếp và hợp tác trong môi trường số</h3>
+              <p>Rèn kỹ năng làm việc nhóm, phản hồi rõ ràng và quản lý tài liệu chung trên nền tảng trực tuyến.</p>
+              <a href="assets/pdfs/chapter-4.pdf" target="_blank" rel="noopener">Xem PDF</a>
+            </div>
+          </article>
+
+          <article id="chapter-5" class="chapter-card">
+            <div class="chapter-media media-content">
+              <span>05</span>
+            </div>
+            <div class="chapter-body">
+              <p class="chapter-kicker">Chương 5</p>
+              <h3>Sáng tạo nội dung số</h3>
+              <p>Tạo sản phẩm số có cấu trúc, thẩm mỹ và phù hợp người xem bằng văn bản, hình ảnh và trình bày.</p>
+              <a href="assets/pdfs/chapter-5.pdf" target="_blank" rel="noopener">Xem PDF</a>
+            </div>
+          </article>
+
+          <article id="chapter-6" class="chapter-card">
+            <div class="chapter-media media-ethics">
+              <span>06</span>
+            </div>
+            <div class="chapter-body">
+              <p class="chapter-kicker">Chương 6</p>
+              <h3>An toàn và liêm chính học thuật</h3>
+              <p>Bảo vệ thông tin cá nhân, trích dẫn nguồn đúng cách và dùng AI minh bạch trong học tập.</p>
+              <a href="assets/pdfs/chapter-6.pdf" target="_blank" rel="noopener">Xem PDF</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="section-heading">
+          <p class="eyebrow">Hồ sơ học tập</p>
+          <h2>Mình học công nghệ bằng cách biến kiến thức thành sản phẩm</h2>
+        </div>
+        <div class="about-layout">
+          <div class="profile-panel">
+            <img class="profile-panel-photo" src="assets/profile-avatar.png" alt="Ảnh chân dung Lê Ngọc Khánh">
+            <h3>Lê Ngọc Khánh</h3>
+            <p>Digital learner · AI beginner · Portfolio 2026</p>
+          </div>
+          <div class="about-copy">
+            <h3>Điểm nhấn cá nhân</h3>
+            <p>
+              Portfolio này không chỉ là nơi trưng bày bài học. Đây là cách mình tổng hợp lại
+              những điều đã hiểu, những kỹ năng đã thử và những tiêu chuẩn mình muốn giữ khi
+              làm việc trong môi trường số.
+            </p>
+            <div class="profile-stats" aria-label="Tóm tắt portfolio">
+              <div class="stat-card">
+                <strong>6</strong>
+                <span>chương nội dung</span>
+              </div>
+              <div class="stat-card">
+                <strong>AI</strong>
+                <span>định hướng học tập</span>
+              </div>
+              <div class="stat-card">
+                <strong>PDF</strong>
+                <span>tài liệu có thể xem trực tiếp</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li>Tư duy hệ thống khi tổ chức thông tin</li>
+              <li>Sử dụng công cụ AI có kiểm chứng</li>
+              <li>Thiết kế nội dung rõ ràng, dễ đọc</li>
+              <li>Làm việc nhóm và phản hồi có trách nhiệm</li>
+            </ul>
+            <p class="portfolio-note">
+              Mục tiêu của portfolio là trình bày kiến thức theo cách dễ theo dõi, có tính cá nhân
+              và đủ chuyên nghiệp để chia sẻ với thầy cô, bạn bè hoặc người quan tâm.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="summary" class="section summary-section">
+        <div class="section-heading">
+          <p class="eyebrow">Tổng kết</p>
+          <h2>Nhìn lại hành trình</h2>
+        </div>
+        <div class="summary-list">
+          <article>
+            <h3>Hành trình thay đổi tư duy số</h3>
+            <p>
+              Trong quá trình hoàn thiện portfolio, mình không chỉ học cách tạo ra một sản phẩm trình bày thông tin cá nhân, mà còn từng bước thay đổi cách tiếp cận với công nghệ. Ban đầu, mình nghĩ việc làm portfolio chỉ đơn giản là chọn một công cụ, đưa nội dung lên và thiết kế sao cho đẹp mắt. Tuy nhiên, khi bắt tay vào thực hiện, mình nhận ra rằng một sản phẩm số tốt cần có sự chuẩn bị rõ ràng: biết chia nhỏ nhiệm vụ, xác định mục tiêu của từng phần, lựa chọn công cụ phù hợp và liên tục kiểm tra lại kết quả sau mỗi bước.
+
+Hành trình này giúp mình rèn luyện tư duy có hệ thống hơn. Thay vì làm việc một cách ngẫu hứng, mình học cách lập kế hoạch, sắp xếp nội dung theo trình tự hợp lý và đặt mình vào góc nhìn của người xem để điều chỉnh cách trình bày. Qua đó, việc học công nghệ không còn là một quá trình rời rạc, khó kiểm soát, mà trở thành một hành trình có phương pháp, có định hướng và có khả năng cải thiện từng ngày
+            </p>
+          </article>
+          <article>
+            <h3>Trải nghiệm và giá trị đọng lại</h3>
+            <p>
+              Giá trị lớn nhất mình nhận được từ quá trình này là hiểu rằng AI và các công cụ số không thay thế tư duy của con người, mà đóng vai trò như một người hỗ trợ giúp quá trình học tập trở nên hiệu quả hơn. AI có thể gợi ý ý tưởng, đề xuất cách trình bày, hỗ trợ chỉnh sửa nội dung và giúp mình nhìn vấn đề từ nhiều góc độ khác nhau. Tuy nhiên, người học vẫn là người quyết định cuối cùng: phải biết đặt câu hỏi đúng, kiểm chứng thông tin, lựa chọn điều phù hợp và chịu trách nhiệm với sản phẩm của mình.
+
+Thông qua việc xây dựng portfolio, mình cũng nhận ra rằng một sản phẩm số có giá trị không chỉ nằm ở hình thức đẹp, mà còn nằm ở thông điệp và sự chân thật trong nội dung. Mỗi phần trong portfolio là một cách để mình nhìn lại quá trình học tập, những kỹ năng đã rèn luyện và những điều còn cần tiếp tục phát triển. Đây không chỉ là một bài tập, mà còn là cơ hội để mình hiểu rõ hơn về năng lực, thói quen học tập và cách bản thân sử dụng công nghệ trong thời đại số.
+            </p>
+          </article>
+          <article>
+            <h3>Bước tiếp theo</h3>
+            <p>
+              Trong thời gian tới, mình muốn tiếp tục phát triển portfolio này thành một không gian học tập và sáng tạo cá nhân. Không chỉ dừng lại ở việc giới thiệu bản thân, mình mong muốn bổ sung thêm những dự án nhỏ thể hiện quá trình học tập của mình, chẳng hạn như bảng dữ liệu có biểu đồ, bài viết phản tư sau mỗi chủ đề, sản phẩm truyền thông số, hoặc các thử nghiệm ứng dụng AI vào việc học.
+
+Mình cũng muốn dùng portfolio như một nơi lưu lại sự tiến bộ của bản thân theo thời gian. Mỗi sản phẩm được thêm vào sẽ không chỉ là một kết quả hoàn chỉnh, mà còn là minh chứng cho quá trình tìm hiểu, thử nghiệm, sửa sai và hoàn thiện. Qua đó, portfolio sẽ trở thành một hành trình mở, nơi mình tiếp tục học hỏi, phát triển tư duy số và sử dụng công nghệ một cách chủ động, sáng tạo và có trách nhiệm.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Kết nối</p>
+          <h2>Gửi lời nhắn</h2>
+        </div>
+        <form class="contact-form" data-contact-form>
+          <label>
+            Tên
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label>
+            Lời nhắn
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="button primary" type="submit">Gửi lời nhắn</button>
+          <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <div class="search-dialog" data-search-dialog hidden>
+      <div class="search-panel" role="dialog" aria-modal="true" aria-labelledby="search-title">
+        <button class="dialog-close" type="button" data-search-close aria-label="Đóng tìm kiếm">×</button>
+        <h2 id="search-title">Tìm trong portfolio</h2>
+        <input type="search" data-search-input placeholder="Nhập: AI, dữ liệu, chương 4...">
+        <div class="search-results" data-search-results></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p>Digital Portfolio · Lê Ngọc Khánh · 2026</p>
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
